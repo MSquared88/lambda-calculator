@@ -1,0 +1,71 @@
+#root{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background: #a81d36;
+    width: 358px;
+    padding: 1%;
+    
+}
+.nums-container {
+    display: flex;
+
+}
+
+.display-container {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 3%;
+    background: #323335;
+    color: white;
+    font-size: 2rem;
+
+}
+.btn-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content:space-between;
+
+}
+.operators-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nums-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn {
+    border: black;
+    box-shadow: 1px 1px 1px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 3px 0px;
+
+    
+
+    
+}
+
+.btn-numbers {
+    background: #184379;
+    width: 30%;
+
+}
+
+.btn-operators {
+    background: #237293;
+
+}
+
+.btn-specials {
+    background: #225d9e;
+    
+}
