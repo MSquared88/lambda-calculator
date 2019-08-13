@@ -14,11 +14,12 @@
 }
 
 .display-container {
-    height: 50px;
+    height: 80px;
+    border-radius: 40px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 3%;
+    padding-right: 8%;
     background: #323335;
     color: white;
     font-size: 2rem;
@@ -27,12 +28,13 @@
 .btn-container {
     display: flex;
     margin-top: 20px;
-    justify-content:space-between;
+    justify-content:space-around;
 
 }
 .operators-container {
     display: flex;
     flex-direction: column;
+    margin-left: 25px;
 }
 
 .nums-container {
@@ -41,13 +43,25 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.nums-char-container {
+    width: 100%;
+    margin-right: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 .btn {
     border: black;
-    box-shadow: 1px 1px 1px;
+    box-shadow: 1px 3px 3px black;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     margin: 3px 0px;
+    color: white;
+    font-size: 2rem;
+    outline: none;
 
     
 
@@ -56,10 +70,12 @@
 
 .btn-numbers {
     background: #184379;
-    width: 30%;
+    /* width: 30%; */
 
 }
+.btn-0 {
 
+}
 .btn-operators {
     background: #237293;
 
